@@ -35,7 +35,7 @@ const CalorieIntakePopup: React.FC<CaloriIntakePopupProps> = ({ setShowCalorieIn
         >
           <AiOutlineClose />
         </button>
-
+        
         <DatePicker getSelectedDay={selectedDay}
           endDate={100}
           selectDate={new Date()}
