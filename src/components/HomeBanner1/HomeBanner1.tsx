@@ -5,7 +5,6 @@ import './HomeBanner1.css'
 
 const HomeBanner1 = () => {
 
-
   const [data, setData] = React.useState<any>(null)
 
   const getData = async () => {
