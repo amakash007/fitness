@@ -246,28 +246,28 @@ const AuthPopup: React.FC<AuthPopupProps> = ({ setShowpopup }) => {
                                     }}
                                 />
 
-                                <Select
-                                    color="warning"
-                                    placeholder="Activity Level"
-                                    size="lg"
-                                    variant="solid"
+                                    <Select
+                                        color="warning"
+                                        placeholder="Activity Level"
+                                        size="lg"
+                                        variant="solid"
 
-                                    onChange={(
-                                        event: React.SyntheticEvent | null,
-                                        newValue: string | null,
-                                    ) => {
-                                        setSignupFormData({
-                                            ...signupformData,
-                                            activityLevel: newValue?.toString() || ''
-                                        })
-                                    }}
-                                >
-                                    <Option value="sedentary">Sedentary</Option>
-                                    <Option value="light">Light</Option>
-                                    <Option value="moderate">Moderate</Option>
-                                    <Option value="active">Active</Option>
-                                    <Option value="veryActive">Very Active</Option>
-                                </Select>
+                                        onChange={(
+                                            event: React.SyntheticEvent | null,
+                                            newValue: string | null,
+                                        ) => {
+                                            setSignupFormData({
+                                                ...signupformData,
+                                                activityLevel: newValue?.toString() || ''
+                                            })
+                                        }}
+                                    >
+                                        <Option value="sedentary">Sedentary</Option>
+                                        <Option value="light">Light</Option>
+                                        <Option value="moderate">Moderate</Option>
+                                        <Option value="active">Active</Option>
+                                        <Option value="veryActive">Very Active</Option>
+                                    </Select>
 
                                 <Select
                                     color="warning"
