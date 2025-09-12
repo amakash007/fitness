@@ -26,7 +26,6 @@ const CalorieIntakePopup: React.FC<CaloriIntakePopupProps> = ({ setShowCalorieIn
   return (
     <div className='popupout'>
 
-
       <div className='popupbox'>
         <button className='close'
           onClick={() => {
