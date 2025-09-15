@@ -78,4 +78,4 @@ const CalorieIntakePopup: React.FC<CaloriIntakePopupProps> = ({ setShowCalorieIn
   )
 }
 
-export default CalorieIntakePopup
+export default CalorieIntakePopup;
