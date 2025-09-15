@@ -21,7 +21,6 @@ const CalorieIntakePopup: React.FC<CaloriIntakePopupProps> = ({ setShowCalorieIn
     console.log(val);
   };
 
-
   const [value, setValue] = React.useState<Dayjs | null>(dayjs('2022-04-17T15:30'));
   return (
     <div className='popupout'>
