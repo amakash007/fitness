@@ -51,8 +51,6 @@ const Navbar = () => {
                         }}
                     >Login</button>
 
-
-
             }
 
             {
