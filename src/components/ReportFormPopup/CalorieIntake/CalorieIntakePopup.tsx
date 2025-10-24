@@ -62,7 +62,7 @@ const CalorieIntakePopup: React.FC<CaloriIntakePopupProps> = ({ setShowCalorieIn
           </div>
           <div className='item'>
             <h3>Banana</h3>
-            <h3>200 gms</h3>
+            <h3>300 gms</h3>
             <button> <AiFillDelete /></button>
 
           </div>
