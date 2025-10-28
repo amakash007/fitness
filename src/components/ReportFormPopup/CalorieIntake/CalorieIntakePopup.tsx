@@ -78,6 +78,6 @@ const CalorieIntakePopup: React.FC<CaloriIntakePopupProps> = ({ setShowCalorieIn
       </div>
     </div>
   )
-}
+};
 
 export default CalorieIntakePopup;
